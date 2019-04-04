@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>脸部识别</title>
+    <meta charset='utf-8'>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+
+    <link rel="stylesheet" href="../static/scan/css/reset.css">
+    <link rel="stylesheet" href="../static/scan/css/scan.css">
+</head>
+
+
+<body>
+<div id="scan" class="hasBg">
+    <div class="scan-header"><p>脸部识别</p></div>
+    <div class="scan-container">
+        <div class="container-tip"></div>
+
+        <div class="container-frame">
+            <div id="scan-btn" onclick="startScan()"><img
+                    src="../static/scan/images/scan-btn.png"
+                    alt="点击扫描">
+            </div>
+
+<div class="camera" id="videoWrap">
+    <video id="video">Video stream not available.</video>
+</div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="../static/scan/js/jquery-3.2.1.min.js"></script>
+<script src="../static/scan/js/scan.js"></script>
+</body>
+</html>
+

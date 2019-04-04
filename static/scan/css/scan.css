@@ -1,0 +1,306 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.popBox {
+    position: absolute;
+    z-index: 20;
+}
+
+.hasBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hide {
+    display: none;
+}
+
+#scan {
+    overflow: hidden;
+    color: #000;
+    text-align: center;
+    z-index: 10;
+}
+
+#scan .scan-header {
+    width: 100%;
+    height: 10vh;
+    vertical-align: middle;
+}
+
+#scan .scan-header p {
+    line-height: 10vh;
+}
+
+#scan .scan-container {
+    width: 100%;
+    /*height: 56vh;*/
+    position: relative;
+}
+
+#scan .scan-container .container-icon {
+    position: relative;
+    margin: 0 auto;
+}
+#scan .scan-container .container-tip {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#scan .scan-container .container-frame {
+    margin: 0px auto;
+    position: relative;
+    background: url("../images/scan-frame.png") no-repeat center;
+    background-size: contain;
+}
+
+#scan-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#scan-line {
+    display: none;
+    width: 100%;
+    position: absolute;
+}
+
+#scan .scan-bottom {
+    width: 100%;
+    height: 34vh;
+    background: rgba(105, 105, 105, 0.7);
+    text-align: center;
+}
+
+#scan .bottom-container {
+    width: 100%;
+    height: 100%;
+}
+
+#scan .bottom-container div {
+    position: relative;
+    margin: 0 auto;
+}
+
+#scan .bottom-text {
+    color: #fff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    #scan {
+        font-size: 16px;
+    }
+
+    #scan .scan-container .container-icon {
+        width: 40px;
+        height: 40px;
+    }
+    #scan .scan-container .container-tip {
+        line-height: 40px;
+        height: 40px;
+    }
+
+    #scan .scan-container .container-frame {
+        width: 220px;
+        height: 220px;
+    }
+
+    #scan-btn {
+        margin-left: -60px;
+        margin-top: -20px;
+        width: 120px;
+        height: 40px;
+    }
+
+    #scan .bottom-logo {
+        width: 90px;
+        height: 90px;
+        top: 25px;
+    }
+
+    #scan .bottom-text {
+        top: 25px;
+        height: 36px;
+        /*font-size: 16px;*/
+        line-height: 36px;
+    }
+
+    #scan .bottom-strategy {
+        top: 25px;
+        width: 52px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 376px)  and (max-width: 413px) {
+    #scan {
+        font-size: 18px;
+    }
+
+    #scan .scan-container .container-icon {
+        width: 40px;
+        height: 40px;
+    }
+    #scan .scan-container .container-tip {
+        line-height: 40px;
+        height: 40px;
+    }
+    #scan .scan-container .container-frame {
+        width: 230px;
+        height: 230px;
+    }
+
+    #scan-btn {
+        margin-left: -60px;
+        margin-top: -20px;
+        width: 120px;
+        height: 40px;
+    }
+
+    #scan .bottom-logo {
+        width: 100px;
+        height: 100px;
+        top: 30px;
+    }
+
+    #scan .bottom-text {
+        top: 30px;
+        height: 36px;
+
+        line-height: 36px;
+    }
+
+    #scan .bottom-strategy {
+        top: 30px;
+        width: 70px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 639px) {
+    #scan {
+        font-size: 20px;
+    }
+
+    #scan .scan-container .container-icon {
+        width: 50px;
+        height: 50px;
+    }
+    #scan .scan-container .container-tip {
+        line-height: 50px;
+        height: 50px;
+    }
+    #scan .scan-container .container-frame {
+        width: 260px;
+        height: 260px;
+    }
+
+    #scan-btn {
+        margin-left: -70px;
+        margin-top: -30px;
+        width: 140px;
+        height: 60px;
+    }
+
+    #scan .bottom-logo {
+        width: 110px;
+        height: 110px;
+        top: 35px;
+    }
+
+    #scan .bottom-text {
+        top: 35px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #scan .bottom-strategy {
+        top: 35px;
+        width: 80px;
+        padding-top: 5px;
+    }
+
+}
+
+@media screen and (min-width: 640px) {
+    #scan {
+        font-size: 28px;
+    }
+
+    #scan .scan-container .container-icon {
+        width: 80px;
+        height: 80px;
+    }
+    #scan .scan-container .container-tip {
+        line-height: 80px;
+        height: 80px;
+    }
+    #scan .scan-container .container-frame {
+        width: 420px;
+        height: 420px;
+    }
+
+    #scan-btn {
+        margin-left: -100px;
+        margin-top: -42px;
+        width: 200px;
+        height: 85px;
+    }
+
+    #scan .bottom-logo {
+        width: 180px;
+        height: 180px;
+        top: 40px;
+    }
+
+    #scan .bottom-text {
+        top: 40px;
+        height: 56px;
+        /*font-size: 28px;*/
+        line-height: 56px;
+    }
+
+    #scan .bottom-strategy {
+        top: 40px;
+        width: 100px;
+        padding-top: 10px;
+    }
+}
+
+
+
+#videoWrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -webkit-transform-origin: 50% 50%;
+    object-fit: cover;
+}
+
+

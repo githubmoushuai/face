@@ -1,0 +1,4 @@
+*.pem
+*.dat
+*.pyc
+~/__pycache__
